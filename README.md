@@ -32,8 +32,12 @@ The model performance was evaluated using mean squared error (MSE) and R-squared
    - Mean Squared Error: 0.021062
    - R-squared: 0.887134
 
+5. **Stacking Regressor:**
+   - Mean Squared Error: 0.017829
+   - R-squared: 0.904460
+
 Conclusion:
 
-The results demonstrate the effectiveness of the regression models in predicting house prices. Linear Regression emerged as the top performer with a low MSE and a high R-squared value, indicating its strong predictive capabilities. Random Forest Regressor closely followed, showcasing the power of ensemble methods. While Decision Tree Regressor and SVR performed well, they exhibited slightly higher errors compared to the top two models.
+The stacking regressor, an ensemble model combining predictions from multiple regression algorithms, outperformed individual models in terms of mean squared error and R-squared. This highlights the efficacy of stacking in leveraging the strengths of diverse models to achieve superior predictive performance. The stacking approach demonstrated an improved ability to capture complex relationships within the dataset, resulting in a more accurate representation of house prices.
 
-This project's success underscores the importance of thorough data exploration, thoughtful feature engineering, and strategic model selection in creating accurate and reliable predictive models for house prices. The insights gained can potentially assist stakeholders in making informed decisions in the dynamic real estate market.
+This project's success underscores the importance of thorough data exploration, thoughtful feature engineering, and strategic model selection. The insights gained not only contribute to predicting house prices more accurately but also provide valuable knowledge for stakeholders in the dynamic real estate market.
